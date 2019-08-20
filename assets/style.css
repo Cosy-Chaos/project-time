@@ -1,0 +1,75 @@
+body {
+    background-color: #f1fffd;
+}
+
+
+
+.main-logo {
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+
+}
+
+.main-logo img {
+    padding-left: 50px;
+}
+
+.main-logo h1 {
+    font-family: 'Great Vibes', cursive;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.menu-list ul {
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Fredericka the Great', cursive;
+
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.menu-list ul li {
+    color: #0d0d0d;
+    list-style: none;
+    margin: 190px 0;
+    cursor: pointer;
+}
+
+.menu-list ul li a {
+    color: #0d0d0d;
+    list-style: none;
+}
+
+.menu-list ul li a:hover {
+    transition: .20s ease-in-out;
+    text-shadow: 2px 2px 5px #191970;
+}
+
+.social-icons {
+    right: 75px;
+    position: absolute;
+}
+
+.social-icons ul li {
+    font-size: 25px;
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-icons ul li a {
+    color: #0d0d0d;
+    border-radius: 50%;
+    border: 1px solid #0d0d0d;
+    padding: 10px;
+    display: block;
+}
+
+.social-icons ul li a:hover {
+    transition: .20s ease-in-out;
+    text-shadow: 2px 2px 5px #191970;
+}
