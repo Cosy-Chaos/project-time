@@ -1,0 +1,192 @@
+body {
+    background-color: #f1fffd;
+}
+
+
+
+.main-logo {
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+
+}
+
+.main-logo img {
+    padding-left: 50px;
+}
+
+.main-logo h1 {
+    font-family: 'Great Vibes', cursive;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.main-logo h2 {
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    font-family: 'Great Vibes', cursive;
+    color: #0d0d0d;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 80px;
+    right: 75px;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 185px;
+    box-shadow: 0px 2px 8px 0px #191970;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: #0d0d0d;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.content-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content-wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.content-wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.site-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.site-wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.site-wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.contact-page {
+    padding-bottom: 3.75rem;
+}
+
+.site-content {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.contact-page>.container-small {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-small {
+    max-width: 51.25rem;
+}
+
+.container-small,
+.container-lg {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact-main {
+    padding-top: 2.9375rem;
+    padding-bottom: 10.00rem;
+}
+
+.contact-title title-font h1,
+h2,
+h3,
+h4,
+.title-font {
+    font-family: 'Cinzel', serif;
+}
+
+.contact-title {
+    font-size: 2.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 10.00rem;
+    color: #0d0d0d;
+    text-align: center;
+}
+
+.about-social {
+    margin-top: 150px;
+    margin-left:890px;
+    display:inline-block;
+}
+
+
+.about-social a {
+    color: #0d0d0d;
+    border-radius: 50%;
+    border: 1px solid #0d0d0d;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.about-social a:hover {
+    transition: .20s ease-in-out;
+    text-shadow: 2px 2px 5px #191970;
+}
