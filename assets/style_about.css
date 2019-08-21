@@ -134,7 +134,7 @@ body {
 
 .site-subtitle {
     font-size: 1.35rem;
-    color: ;
+    color: #0d0d0d;
     margin-top: 0.9375rem;
 }
 
@@ -175,14 +175,14 @@ body {
     vertical-align: top;
     background: var(--about-link-bg);
     border: 0.0625rem solid var(--social-circle-border);
-    color: var(--social-circle-color);
+    color: #0d0d0d;
     padding: 0.625rem 1.1875rem;
     border-radius: 1.5rem;
 }
 
 a,
 .active a {
-    color: var(--link-color);
+    color: #0d0d0d;
     text-decoration: none;
     -webkit-transition: color 0.25s cubic-bezier(0.45, 0.3, 0.15, 0.95), opacity 0.25s cubic-bezier(0.45, 0.3, 0.15, 0.95);
     transition: color 0.25s cubic-bezier(0.45, 0.3, 0.15, 0.95), opacity 0.25s cubic-bezier(0.45, 0.3, 0.15, 0.95);
@@ -212,7 +212,7 @@ a {
 }
 
 .about-social {
-    margin-top: 180px;
+    margin-top: 150px;
 }
 
 
