@@ -5,81 +5,31 @@ body {
 
 
 .main-logo {
+    width: 100%;
     padding-top: 50px;
-    padding-left: 20px;
     margin: 0;
     text-align: left;
 
 }
 
 .main-logo img {
-    padding-left: 50px;
+    padding-left: 150px;
 }
 
 .main-logo h1 {
     font-family: 'Great Vibes', cursive;
+    font-size: 50px;
     padding-top: 15px;
+    padding-left: 50px;
     text-align: left;
 }
 
 .main-logo h2 {
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 75px;
+    font-size: 85px;
     font-weight: 600;
     letter-spacing: 5px;
-}
-
-.dropbtn {
-    background-color: transparent;
-    font-family: 'Great Vibes', cursive;
-    color: #0d0d0d;
-    font-size: 70px;
-    padding: 10px;
-    border-radius: 100%;
-}
-
-.dropdown {
-    position: absolute;
-    top: 80px;
-    right: 75px;
-    display: inline-block;
-}
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    min-width: 185px;
-    box-shadow: 0px 2px 8px 0px #191970;
-    z-index: 1;
-}
-
-
-.dropdown-content a {
-    color: #0d0d0d;
-    font-family: 'Great Vibes', cursive;
-    text-align: center;
-    font-size: 40px;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-.dropdown:hover .dropbtn {
-    background-color: transparent;
 }
 
 .about-main {
@@ -105,24 +55,26 @@ body {
 }
 
 .container-box img {
-    
+
     border-style: none;
 }
 
 .about-name {
-    font-family: ;
+    font-family: 'Great Vibes', cursive;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0.75rem;
 }
 
-.about-name, .title-font {
+.about-name,
+.title-font {
     font-family: 'Cinzel', serif;
     font-size: 50px;
     letter-spacing: 2px;
 }
 
-.about-job-name, .site-subtitle{
+.about-job-name,
+.site-subtitle {
     font-family: 'Cinzel', serif;
     font-size: 50px;
     letter-spacing: 2px;
@@ -213,6 +165,8 @@ a {
 
 .about-social {
     margin-top: 150px;
+    margin-left: 890px;
+    display: inline-block;
 }
 
 
@@ -221,11 +175,298 @@ a {
     border-radius: 50%;
     border: 1px solid #0d0d0d;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
     display: inline-block;
 }
 
 .about-social a:hover {
     transition: .20s ease-in-out;
     text-shadow: 2px 2px 5px #191970;
+}
+
+.social_icons {
+    width: 100%;
+}
+
+
+.social_icons ul {
+    text-align: center;
+    margin: 0;
+    padding: 50px 20px 20px 20px;
+}
+
+
+.social_icons ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 5px 35px;
+    font-size: 50px;
+
+}
+
+.social_icons ul li a {
+    color: #0d0d0d;
+}
+
+.social_icons ul li a:hover {
+    transition: .20s ease-in-out;
+    text-shadow: 2px 2px 5px #191970;
+}
+
+.navbar {
+    background-color: #f1fffd;
+    overflow: visible;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.navbar a:hover {
+    transition: .20s ease-in-out;
+    text-shadow: 2px 2px 5px #191970;
+}
+
+@media (max-width: 1024px) {
+
+    .main-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .main-logo img {
+        padding: 0;
+        text-align: center;
+    }
+
+    .main-logo h1 {
+        padding: 20px 25px;
+        text-align: center;
+    }
+
+    .social_icons ul {
+        padding: 50px 5px 50px 5px;
+    }
+
+    .social_icons ul li {
+        font-size: 0px;
+    }
+
+    .navbar {
+        background-color: #f1fffd;
+        overflow: visible;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #0d0d0d;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .navbar a:hover {
+        transition: .20s ease-in-out;
+        text-shadow: 2px 2px 5px #191970;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .main_logo {
+        width: 100%;
+        padding-top: 50px;
+        margin: 0;
+        text-align: center;
+    }
+    .main_logo img {
+        padding-left: 0;
+    }
+
+    .main_logo h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        padding-top: 15px;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .social_icons ul {
+        padding: 50px 5px 50px 5px;
+    }
+
+    .social_icons ul li {
+        font-size: 40px;
+    }
+
+    .navbar {
+        background-color: #f1fffd;
+        overflow: visible;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #0d0d0d;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .navbar a:hover {
+        transition: .20s ease-in-out;
+        text-shadow: 2px 2px 5px #191970;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .main-logo {
+        width: 100%;
+        text-align: left;
+    }
+    .main-logo img {
+        padding: 0 0 5px 118px;
+        text-align: left;
+    }
+
+    .main-logo h1 {
+        padding: 0 20px;
+        text-align: left;
+        font-size: 48px;
+    }
+
+    .main-logo h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .about-main {
+        text-align: center;
+    }
+
+    .about-name {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-location {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-email {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        background-color: #f1fffd;
+        overflow: visible;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #0d0d0d;
+        text-align: center;
+        padding: 0px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .navbar a:hover {
+        transition: .20s ease-in-out;
+        text-shadow: 2px 2px 5px #191970;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-logo {
+        width: 100%;
+        text-align: left
+    }
+    .main-logo img {
+        padding: 0 0 0 115px;
+        text-align: left;
+    }
+
+    .main-logo h1 {
+        padding: 20px 25px;
+        text-align: left;
+    }
+
+    .main-logo h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .about-main {
+        text-align: center;
+    }
+
+    .about-name {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-location {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-email {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        background-color: #f1fffd;
+        overflow: visible;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #0d0d0d;
+        text-align: center;
+        padding: 0px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .navbar a:hover {
+        transition: .20s ease-in-out;
+        text-shadow: 2px 2px 5px #191970;
+    }
 }

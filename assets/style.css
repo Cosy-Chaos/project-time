@@ -2,74 +2,252 @@ body {
     background-color: #f1fffd;
 }
 
-
-
-.main-logo {
+.main_logo {
+    width: 100%;
     padding-top: 50px;
-    padding-left: 20px;
     margin: 0;
     text-align: left;
 
 }
 
-.main-logo img {
-    padding-left: 50px;
+.main_logo img {
+    padding-left: 150px;
 }
 
-.main-logo h1 {
+.main_logo h1 {
     font-family: 'Great Vibes', cursive;
+    font-size: 50px;
     padding-top: 15px;
+    padding-left: 50px;
     text-align: left;
 }
 
-.menu-list ul {
+.menu_list {
+    width: 100%;
+    text-align: center;
+}
+
+.menu_list ul {
+    width: 100%;
     letter-spacing: 5px;
     text-align: center;
-    margin: 50px;
+    margin: 0;
+    padding: 0;
     font-family: 'Fredericka the Great', cursive;
+    list-style: none;
 
     font-size: 85px;
     font-weight: 400;
 }
 
-.menu-list ul li {
+.menu_list ul li {
     color: #0d0d0d;
-    list-style: none;
-    margin: 190px 0;
+    margin: 120px 190px;
     cursor: pointer;
 }
 
-.menu-list ul li a {
+.menu_list ul li a {
     color: #0d0d0d;
-    list-style: none;
+    text-decoration: none;
 }
 
-.menu-list ul li a:hover {
+.menu_list ul li a:hover {
     transition: .20s ease-in-out;
     text-shadow: 2px 2px 5px #191970;
 }
 
-.social-icons {
-    right: 75px;
-    position: absolute;
+.social_icons {
+    width: 100%;
 }
 
-.social-icons ul li {
-    font-size: 25px;
-    list-style: none;
-    margin-top: 15px;
+
+.social_icons ul {
     text-align: center;
+    margin: 0;
+    padding: 50px 20px 20px 40px;
 }
 
-.social-icons ul li a {
+
+.social_icons ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 5px 35px;
+    font-size: 50px;
+
+}
+
+.social_icons ul li a {
     color: #0d0d0d;
-    border-radius: 50%;
-    border: 1px solid #0d0d0d;
-    padding: 10px;
-    display: block;
 }
 
-.social-icons ul li a:hover {
+.social_icons ul li a:hover {
     transition: .20s ease-in-out;
     text-shadow: 2px 2px 5px #191970;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main_logo {
+        width: 100%;
+        padding-top: 50px;
+        margin: 0;
+        text-align: center;
+    }
+    .main_logo img {
+        padding-left: 0;
+    }
+
+    .main_logo h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        padding-top: 15px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .menu_list ul {
+        margin: auto;
+        padding: 100px;
+    }
+    .menu_list ul li {
+        font-size: 50px;
+        margin: 100px 100px;
+    }
+    .social_icons {
+        margin: auto;
+    }
+
+    .social_icons ul {
+        padding: 50px 30px 20px 30px;
+    }
+
+    .social_icons ul li {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main_logo {
+        width: 100%;
+        padding-top: 50px;
+        margin: 0;
+        text-align: center;
+    }
+    .main_logo img {
+        padding-left: 0;
+    }
+
+    .main_logo h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        padding-top: 15px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .menu_list ul {
+        margin: auto;
+        padding: 0;
+    }
+    .menu_list ul li {
+        font-size: 50px;
+        margin: 50px 80px;
+    }
+    .social_icons {
+        margin: auto;
+    }
+
+    .social_icons ul {
+        padding: 50px 30px 20px 30px;
+    }
+
+    .social_icons ul li {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-logo {
+        width: 100%;
+        text-align: left;
+    }
+    .main-logo img {
+        padding: 0 0 5px 118px;
+        text-align: left;
+    }
+
+    .main-logo h1 {
+        padding: 0 20px;
+        text-align: left;
+        font-size: 48px;
+    }
+    .menu_list ul {
+        margin: auto;
+        padding: 0;
+    }
+    .menu_list ul li {
+        font-size: 50px;
+        margin: 50px 80px;
+    }
+    .social_icons {
+        margin: auto;
+    }
+    .social_icons ul li {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-logo {
+        width: 100%;
+        text-align: left;
+    }
+    .main-logo img {
+        padding: 0 0 5px 118px;
+        text-align: left;
+    }
+
+    .main-logo h1 {
+        padding: 0 20px;
+        text-align: left;
+        font-size: 48px;
+    }
+    .menu_list ul {
+        margin: auto;
+        padding: 0;
+    }
+    .menu_list ul li {
+        font-size: 50px;
+        margin: 50px 80px;
+    }
+    .social_icons {
+        margin: auto;
+    }
+    .social_icons ul li {
+        font-size: 25px;
+    }
+
+    .navbar {
+        background-color: #f1fffd;
+        overflow: visible;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #0d0d0d;
+        text-align: center;
+        padding: 0px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .navbar a:hover {
+        transition: .20s ease-in-out;
+        text-shadow: 2px 2px 5px #191970;
+    }
 }
